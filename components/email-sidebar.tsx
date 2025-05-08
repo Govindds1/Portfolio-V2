@@ -12,11 +12,11 @@ export default function EmailSidebar() {
       transition={{ duration: 0.5, delay: 1 }}
     >
       <Link
-        href="mailto:hello@govindraj.dev"
+        href="mailto:govindrajgaya786@gmail.com"
         className="text-slate-400 hover:text-teal-400 transition-colors vertical-text"
         aria-label="Email"
       >
-        hello@govindraj.dev
+        govindrajgaya786@gmail.com
       </Link>
       <div className="w-px h-24 bg-slate-400 mt-6"></div>
     </motion.div>
