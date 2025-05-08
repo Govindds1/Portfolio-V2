@@ -28,16 +28,16 @@ export default function About() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <p className="text-slate-300 mb-4">
-            Hello! I'm Govind, a passionate developer with a strong foundation in Data Structures and Algorithms. My
+            Hello! I&apos;m Govind, a passionate developer with a strong foundation in Data Structures and Algorithms. My
             journey in tech began with a curiosity about how things work under the hood, which led me to dive deep into
             algorithmic problem-solving.
           </p>
           <p className="text-slate-300 mb-4">
-            I enjoy creating efficient, scalable solutions that make a difference. Whether it's optimizing code
-            performance or designing intuitive user interfaces, I'm always looking for ways to improve and innovate.
+            I enjoy creating efficient, scalable solutions that make a difference. Whether it&apos;s optimizing code
+            performance or designing intuitive user interfaces, I&apos;m always looking for ways to improve and innovate.
           </p>
           <p className="text-slate-300">
-            When I'm not coding, you can find me contributing to open-source projects, participating in coding
+            When I&apos;m coding, you can find me contributing to open-source projects, participating in coding
             competitions, or exploring new technologies to expand my skill set.
           </p>
         </motion.div>
