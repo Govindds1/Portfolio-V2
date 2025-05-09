@@ -13,12 +13,13 @@ export default function EmailSidebar() {
     >
       <Link
         href="mailto:govindrajgaya786@gmail.com"
-        className="text-slate-400 hover:text-teal-400 transition-colors vertical-text"
+        style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}
+        className="text-slate-400 hover:text-teal-400 transition-colors mb-3"
         aria-label="Email"
       >
         govindrajgaya786@gmail.com
       </Link>
-      <div className="w-px h-24 bg-slate-400 mt-6"></div>
+      <div className="w-px h-24 bg-slate-400"></div>
     </motion.div>
   )
 }
