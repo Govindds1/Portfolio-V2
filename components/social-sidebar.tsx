@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Code, BookOpen } from "lucide-react"
+import { Github, Linkedin, Twitter, Code, } from "lucide-react"
+import Image from "next/image"
 
 export default function SocialSidebar() {
   return (
@@ -15,7 +16,7 @@ export default function SocialSidebar() {
       <ul className="flex flex-col gap-6 after:content-[''] after:w-px after:h-24 after:bg-slate-400 after:mx-auto after:mt-6">
         <li>
           <Link
-            href="https://github.com"
+            href="https://github.com/Govindds1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-teal-400 transition-colors"
@@ -26,7 +27,7 @@ export default function SocialSidebar() {
         </li>
         <li>
           <Link
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/dsgovind"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-teal-400 transition-colors"
@@ -37,7 +38,7 @@ export default function SocialSidebar() {
         </li>
         <li>
           <Link
-            href="https://twitter.com"
+            href="https://twitter.com/GovindR07896606"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-teal-400 transition-colors"
@@ -48,7 +49,7 @@ export default function SocialSidebar() {
         </li>
         <li>
           <Link
-            href="https://leetcode.com"
+            href="https://leetcode.com/Govindds"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-teal-400 transition-colors"
@@ -59,13 +60,19 @@ export default function SocialSidebar() {
         </li>
         <li>
           <Link
-            href="https://geeksforgeeks.org"
+            href="https://geeksforgeeks.org/user/govindrajoj5c"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-teal-400 transition-colors"
             aria-label="GeeksforGeeks"
           >
-            <BookOpen size={20} />
+            <Image
+              src="/images/geeksforgeeks-logo.png"
+              alt="GeeksforGeeks"
+              width={20}
+              height={20}
+              className="text-slate-400"
+               />
           </Link>
         </li>
       </ul>
