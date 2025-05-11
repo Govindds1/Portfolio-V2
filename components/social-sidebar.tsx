@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Code, } from "lucide-react"
+import { Github, Linkedin, Twitter, Code } from "lucide-react"
 import Image from "next/image"
 
 export default function SocialSidebar() {
@@ -59,21 +59,23 @@ export default function SocialSidebar() {
           </Link>
         </li>
         <li>
-          <Link
-            href="https://geeksforgeeks.org/user/govindrajoj5c"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-slate-400 hover:text-teal-400 transition-colors"
-            aria-label="GeeksforGeeks"
-          >
-            <Image
-              src="/images/geeksforgeeks-logo.png"
-              alt="GeeksforGeeks"
-              width={20}
-              height={20}
-              className="text-slate-400"
-               />
-          </Link>
+          <div className="group">
+            <Link
+              href="https://geeksforgeeks.org/user/govindrajoj5c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-teal-400 transition-colors"
+              aria-label="GeeksforGeeks"
+            >
+              <Image
+                src="/images/geeksforgeeks-logo.png"
+                alt="GeeksforGeeks"
+                width={20}
+                height={20}
+                className="w-5 h-5 object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+              />
+            </Link>
+          </div>
         </li>
       </ul>
     </motion.div>
