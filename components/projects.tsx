@@ -7,31 +7,31 @@ import { Github, ExternalLink } from "lucide-react"
 
 const projects = [
   {
-    title: "Algorithm Visualizer",
+    title: "PrepWise",
     description:
-      "An interactive web application that visualizes various sorting and pathfinding algorithms, helping users understand how they work.",
-    technologies: ["React", "TypeScript", "Canvas API"],
-    github: "https://github.com",
+      "A revolutionary platform to simplify exam preparation, resume building, and interview practice using AI-driven technologies.",
+    technologies: ["MERN", "Python", "Flask", "AI/ML"],
+    github: "https://github.com/Govindds1/prepwise",
     demo: "https://demo.com",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/prepwise-placeholder.png",
   },
   {
-    title: "Data Structure Explorer",
+    title: "MorseCode",
     description:
-      "A comprehensive tool for exploring and understanding different data structures with interactive examples and challenges.",
-    technologies: ["Next.js", "Node.js", "MongoDB"],
-    github: "https://github.com",
+      "This backend API uses the OpenAI API to convert code between languages, debug code with explanations, and assess code quality.",
+    technologies: ["Node.js", "Express.js", "OpenAI API", "ML"],
+    github: "https://github.com/Govindds1/morsecode",
     demo: "https://demo.com",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/morsecode-placeholder.jpeg",
   },
   {
-    title: "Competitive Programming Hub",
+    title: "Baby Liger – Web3-Based Gaming Platform",
     description:
-      "A platform for practicing competitive programming problems with integrated code editor, test cases, and performance analytics.",
-    technologies: ["React", "Express", "PostgreSQL"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "/placeholder.svg?height=400&width=600",
+      "Designed and developed a decentralized gaming platform on Ethereum, enabling players to own, trade, and monetize in-game assets as NFTs.",
+    technologies: ["React", "Node.js", "Ethereum", "Web3.js"],
+    github: "https://dribbble.com/shots/25673442-BabyLiger-Telegram-App-UI-Design",
+    demo: "https://www.babyliger.vip",
+    image: "/images/babyliger-placeholder.png",
   },
 ]
 
