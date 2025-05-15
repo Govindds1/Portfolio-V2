@@ -28,13 +28,13 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <p className="text-slate-300 mb-8">
-        I&apos;m currently looking for new opportunities to apply my skills in algorithm design and frontend development.
-          Whether you have a question or just want to say hi, I&apos;ll do my best to get back to you!
+          I'm currently looking for new opportunities to apply my skills in algorithm design and frontend development.
+          Whether you have a question or just want to say hi, I'll do my best to get back to you!
         </p>
 
         <motion.a
           href="mailto:hello@govindraj.dev"
-          className="inline-flex items-center px-6 py-3 bg-teal-400 text-slate-900 rounded-md font-medium hover:bg-teal-300 transition-colors"
+          className="inline-flex items-center px-6 py-3 bg-transparent border border-teal-400 text-teal-400 rounded-md font-medium hover:border-teal-300 hover:text-teal-300 transition-colors"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
