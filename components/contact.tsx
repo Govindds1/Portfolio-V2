@@ -34,7 +34,7 @@ export default function Contact() {
 
         <motion.a
           href="mailto:hello@govindraj.dev"
-          className="inline-flex items-center px-6 py-3 bg-transparent border border-teal-400 text-teal-400 rounded-md font-medium hover:border-teal-300 hover:text-teal-300 transition-colors"
+          className="inline-flex items-center px-6 py-3 bg-transparent border border-teal-400 text-teal-400 rounded-xl font-medium hover:border-teal-300 hover:text-teal-300 transition-colors"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
