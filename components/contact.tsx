@@ -28,8 +28,8 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <p className="text-slate-300 mb-8">
-          I'm currently looking for new opportunities to apply my skills in algorithm design and frontend development.
-          Whether you have a question or just want to say hi, I'll do my best to get back to you!
+          I&apos;m currently looking for new opportunities to apply my skills in algorithm design and frontend development.
+          Whether you have a question or just want to say hi, I&apos;ll do my best to get back to you!
         </p>
 
         <motion.a
