@@ -17,7 +17,7 @@ const achievements = [
     title: "DIGITHON 2.0 BEST IDEA",
     description: "Fourth place in the Digithon Hackathon  in Mar 2025 organized by Cintel's Association SRM University.",
     date: "2025",
-    certificate: "/placeholder.svg?height=300&width=400",
+    certificate: "/images/digithon-certificate.jpeg",
     link: "https://example.com",
   },
   {
