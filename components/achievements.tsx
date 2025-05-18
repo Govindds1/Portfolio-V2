@@ -18,7 +18,7 @@ const achievements = [
     description: "Fourth place in the Digithon Hackathon  in Mar 2025 organized by Cintel's Association SRM University.",
     date: "2025",
     certificate: "/images/digithon-certificate.jpeg",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/posts/dsgovind_cyberlife-hackathon-tech-activity-7298669645824176128-mItM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbPLisBeGgen2tfj1YTe2Hw3__-FjKLf6U",
   },
   {
     title: "LeetCode Global Ranking - Top 1%",
