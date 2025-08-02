@@ -51,7 +51,7 @@ export default function About() {
           <div className="absolute inset-0 border-2 border-teal-400 rounded-md translate-x-5 translate-y-5"></div>
           <div className="relative w-full h-full overflow-hidden rounded-md group">
             <Image
-              src="/images/govind-photo.png"
+              src="/images/govind.png"
               alt="Govind Raj"
               width={320}
               height={320}
